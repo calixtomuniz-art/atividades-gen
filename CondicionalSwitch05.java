@@ -1,6 +1,5 @@
 package JavaTech;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class CondicionalSwitch05 {
