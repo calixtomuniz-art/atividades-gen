@@ -1,3 +1,5 @@
+//Faça um algoritmo em Java que leia 3 valores inteiros A, B e C e imprima na tela se a soma de A + B é maior, menor ou igual a C
+
 package JavaTech;
 
 import java.util.Scanner;
