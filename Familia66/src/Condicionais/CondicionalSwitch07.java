@@ -1,4 +1,4 @@
-package LacoCondicional;
+package Condicionais;
 
 import java.util.Scanner;
 
