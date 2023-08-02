@@ -1,4 +1,4 @@
-package JavaTech;
+package LacoCondicional;
 
 import java.util.Scanner;
 

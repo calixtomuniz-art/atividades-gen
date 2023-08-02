@@ -1,4 +1,4 @@
-package JavaTech;
+package Loopings;
 
 import java.util.Scanner;
 

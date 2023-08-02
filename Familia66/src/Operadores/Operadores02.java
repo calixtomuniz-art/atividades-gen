@@ -1,4 +1,4 @@
-package JavaTech;
+package Operadores;
 
 import java.util.Scanner;
 
