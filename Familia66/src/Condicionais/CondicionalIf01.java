@@ -32,6 +32,8 @@ public class CondicionalIf01 {
 	    	System.out.println(b+"+"+a+"="+r+"="+c);
 	    	System.out.println("A Soma de A + B é Igual a C");
 	    }
+
+		leia.close();
 	}
 }
 

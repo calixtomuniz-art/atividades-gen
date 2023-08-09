@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Operadores03 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner read = new Scanner(System.in);
 		
 		float salario_bruto, adicional_noturno, horas_extras, descontos, salario_liquido;
@@ -23,7 +22,7 @@ public class Operadores03 {
 		
 		salario_liquido = salario_bruto + adicional_noturno + (horas_extras * 5) - descontos;
 		System.out.printf("\nO salario líquido é R$ %.2f", salario_liquido);
-		
+	
+		read.close();
 	}
-
 }

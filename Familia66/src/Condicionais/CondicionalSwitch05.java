@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class CondicionalSwitch05 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner read = new Scanner(System.in);
 		
 		int item, qtd;
@@ -67,6 +66,7 @@ public class CondicionalSwitch05 {
 				System.out.printf("\nProduto Inválido.");
 		}
 		
+		read.close();
 	}
 
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArrayVetor02 {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        int [] vetor = new int[10], impar = new int[10], par = new int[10];
+        int [] vetor = new int[10];
         float soma = 0, media = 0;
         String elementosPares = "";
         String elementosImpares = "";
@@ -33,5 +33,7 @@ public class ArrayVetor02 {
         System.out.print("\nElementos pares:"+elementosImpares);
         System.out.print("\nSoma: "+soma);
         System.out.printf("\nMédia: %.2f", media);
+
+        read.close();
     }
 }

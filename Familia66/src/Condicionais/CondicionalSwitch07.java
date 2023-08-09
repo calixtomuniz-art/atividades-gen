@@ -45,5 +45,7 @@ public class CondicionalSwitch07 {
 			default:
 				System.out.println("Operação Inválida !");
 		}
+
+		read.close();
 	}
 }

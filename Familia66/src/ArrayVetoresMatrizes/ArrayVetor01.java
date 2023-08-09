@@ -21,5 +21,6 @@ public class ArrayVetor01 {
         }else{
             System.out.printf("O número %d não foi encontrado", num);
         }
+        read.close();
     }
 }

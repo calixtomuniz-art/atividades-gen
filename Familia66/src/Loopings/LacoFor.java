@@ -8,7 +8,6 @@ public class LacoFor {
 
 		Scanner read = new Scanner(System.in);
 		float n1, n2, n3, media;
-		int x;
 
 		n1 = 5;
 		n2 = 7;
@@ -17,5 +16,6 @@ public class LacoFor {
 		media = (n1 + n2 + n3) / 3;
 
 		System.out.println(media);
+		read.close();
 	}
 }

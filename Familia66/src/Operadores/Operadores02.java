@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Operadores02 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner read = new Scanner(System.in);
 		float n1, n2, n3, n4, media;
 		
@@ -24,6 +23,7 @@ public class Operadores02 {
 		media = (n1 + n2 + n3 + n4) / 4;
 		
 		System.out.printf("\nA média final é: %.2f", media);
-	}
 
+		read.close();
+	}
 }

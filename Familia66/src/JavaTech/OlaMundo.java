@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class OlaMundo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String nome = "Matheus Calixto Muniz", mediaFormatada;
 		int idade = 25;
 		float altura = (float) 1.75, nota1, nota2, nota3, media;
@@ -29,9 +28,9 @@ public class OlaMundo {
 		DecimalFormat formatter = new DecimalFormat("#.00");
 		
 		media = (nota1 + nota2 + nota3) / 3;
-		//mediaFormatada = formatter.format(media);
+		mediaFormatada = formatter.format(media);
 
-		System.out.printf("\nO %s tem a média de: %.2f", nome, media);
+		System.out.printf("\nO %s tem a média de: %.2f", nome, mediaFormatada);
 
 	
 		if(media >= 7 && media <= 10) {
@@ -43,6 +42,7 @@ public class OlaMundo {
 		else {
 			System.out.println("\nAlune reprovade !!!");
 		}
-	}
 
+		read.close();
+	}
 }

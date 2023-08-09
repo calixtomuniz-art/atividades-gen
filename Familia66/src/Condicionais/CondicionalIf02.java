@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class CondicionalIf02 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner read = new Scanner(System.in);
 		int numero; 
 		System.out.print("Digite um número: ");
@@ -22,7 +21,8 @@ public class CondicionalIf02 {
 		} else {
 			System.out.printf("e negativo!");
 		}
-		
+	
+		read.close();
 	}
 
 }

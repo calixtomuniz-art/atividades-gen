@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class LacoSwitch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int resposta;
 		boolean looping = true;
 		
@@ -43,6 +42,7 @@ public class LacoSwitch {
 			}
 			
 		}
-	}
 
+		read.close();
+	}
 }
